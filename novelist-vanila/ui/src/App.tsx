@@ -45,7 +45,7 @@ function App() {
   const buttonClick3 = async (e: any) => {
     const data = {
       genre: genre_text,
-      characters: [characters_text],
+      characters: characters_text,
       news_text: news_text
     }
     const res = await fetch("http://localhost:8000/test", {

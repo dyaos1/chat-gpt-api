@@ -1,0 +1,27 @@
+{
+    "description": "extract idea",
+    "execution_settings": {
+      "default": {
+        "max_tokens": 300,
+        "temperature": 0.7,
+        "top_p": 0.0
+      }
+    },
+    "input_variables": [
+      {
+        "name": "characters",
+        "description": "input characters",
+        "default": ""
+      },
+      {
+        "name": "news_text",
+        "description": "input news_text",
+        "default": ""
+      },
+      {
+        "name": "genre",
+        "description": "input genre",
+        "default": ""
+      }
+    ]
+  }

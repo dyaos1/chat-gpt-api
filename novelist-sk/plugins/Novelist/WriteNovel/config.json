@@ -1,0 +1,32 @@
+{
+    "description": "write novel",
+    "execution_settings": {
+      "default": {
+        "max_tokens": 500,
+        "temperature": 0.7,
+        "top_p": 0.0
+      }
+    },
+    "input_variables": [
+      {
+        "name": "characters",
+        "description": "input characters",
+        "default": ""
+      },
+      {
+        "name": "novel_outline",
+        "description": "input novel_outline",
+        "default": ""
+      },
+      {
+        "name": "novel_idea",
+        "description": "input novel_idea",
+        "default": ""
+      },
+      {
+        "name": "genre",
+        "description": "input genre",
+        "default": ""
+      }
+    ]
+  }
